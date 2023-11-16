@@ -47,7 +47,8 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 22.75px;
+    line-height: 1.35;
 }
 
 .hero {
@@ -77,13 +78,17 @@ p {
 
 .benefits {
     margin-right: 20px;
+    text-align: center;
+    font-size: 25px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2a607c;
+    /* We decided to change the background-color of the benefits bar (2589bd;)
+    to match the heading background-color, (#2a607c;) for more consistency. */
 }
 
 .benefit-lead {
@@ -118,37 +123,46 @@ p {
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 5px auto;
+    max-width: 215px;
+    max-height: 215px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 5px auto;
+    max-width: 215px;
+    max-height: 215px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    margin: 5px auto;
+    max-width: 215px;
+    max-height: 215px;
 }
 
+/* I changed the background-color of all 3 sections to match the 
+heading back-ground color (#2a607c;). */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
+/* I chose the header color because the background is darker
+and it's easier to read light-text on a dark background. I decided
+to not go darker because I think this color meshes well with white, 
+rather than a more green/brown tone. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
@@ -157,7 +171,7 @@ p {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
@@ -197,4 +211,7 @@ p {
 
 .footer h2 {
     font-size: 20px;
+    text-align: center;
 }
+
+
