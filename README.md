@@ -1,8 +1,8 @@
 Description
 
-My goal with this project was to improve the user experience for the website given. 
+My goal with this project was to improve the codebase for the website given, to meet accessibility standards and improve SEO. 
 
-No visible changes were done to the website, the changes were in the code itself. This was done to make the code easier to read.
+No visible changes were done to the website, the changes were in the code itself. This was done to make the code easier to read and load faster, making it more accessible in search engines.
 
 The code had multiple div elements in the HTML file, so I replaced them with the 
 proper HTML semantics. 
